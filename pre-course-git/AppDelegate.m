@@ -16,8 +16,22 @@
             
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // Declare two variables
+    CGFloat height;
+    CGFloat weight;
+    
+    //Store a value in each variable
+    height = 71.0f;
+    weight = 185.0f;
+    
+    // We'll calculate the body mass index
+    CGFloat bodyMassIndex = (weight / (height * height)) *703;
+    
+    //Log that into the consol
+    NSLog(@"%f",bodyMassIndex);
+    
+    
     // Override point for customization after application launch.
-    Print "Hello World"
     return YES;
 }
 
