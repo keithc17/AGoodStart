@@ -30,6 +30,7 @@
     //Log that into the consol
     NSLog(@"%f",bodyMassIndex);
     
+    print('bodyMassIndex');
     
     // Override point for customization after application launch.
     return YES;
